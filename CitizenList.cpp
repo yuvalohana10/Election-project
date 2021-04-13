@@ -64,17 +64,6 @@ DynamicArray<repsAndVotes> CitizenList::collectVotes(int numOfParties)
 	return array;
 }
 
-//repsAndVotes* CitizenList::CollectVotes(int numOfParties)
-//{
-//    int size = numOfParties + 1;
-//	repsAndVotes* array = new repsAndVotes[size];
-//	initArray(array, size);
-//	for (auto itr : clist)
-//		array[itr->getChoice()].votes++;
-//	return array;
-//
-//}
-
 int CitizenList::PrintRepsByParty(int pnum, int howmany)
 {
 
